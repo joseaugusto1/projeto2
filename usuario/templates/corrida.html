@@ -1,4 +1,5 @@
- <body bgcolor="#CDB5CD"><h1>Nova Corrida</h1>
+{% extends 'base.html' %} 
+<body bgcolor="#CDB5CD"><h1>Nova Corrida</h1>
 
 <form action="/corrida/" method="POST">
 	{% csrf_token %}
