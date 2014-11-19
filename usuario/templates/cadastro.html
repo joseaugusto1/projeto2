@@ -1,7 +1,8 @@
-<h1>CADASTRO</h1>
+ <body bgcolor="#CDB5CD"><h1>CADASTRO</h1>
 
 <form action="/cadastro_validar/" method="POST">
 	{% csrf_token %}
 	{{ form.as_p }}<br />
 	<input type="submit" value="Validar" />
 </form>
+<body/>
