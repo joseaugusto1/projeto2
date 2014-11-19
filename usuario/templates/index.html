@@ -1,10 +1,16 @@
 {% load i18n %}
-<h1>SUPERTAXI- SOFTWARE PARA CONTROLE DE CORRIDAS DE TÁXI</h1>
+{% block conteudo %}
+	<div class="col-sm-6" align="center">
+    	      </div>
+            <div class="col-sm-6" align="center">
+              
+{% block titulo %}{% endblock titulo %}
+              
+<h1><i>SUPERTAXI- SOFTWARE PARA CONTROLE DE CORRIDAS DE TÁXI</i></h1>
 
-<br/> 
-Conteúdo normal do site...
-<br/>
-
+        	
+              
+              
 {% if user.is_authenticated %}
     Se desejar mostrar algo com o usuario logado em QUALQUER template...
     <br />
@@ -19,6 +25,8 @@ Conteúdo normal do site...
 <a href="/cadastro/">Cadastrar!</a>
 
 <a href="/corrida/">Clique pasa inserir nova corrida de Táxi</a>
+              
+<br/>
 
 <a href="#" onclick="document.setLangEnglish.submit();return false;">English</a>
 <form name="setLangEnglish" action="/i18n/setlang/" method="POST">
@@ -42,3 +50,4 @@ Tradução direto no Template: {% trans "Olá turma do mal!" %}
 Tradução direto no Template (Bloco): {% blocktrans %} Esse é o bloco de conteúdo!{% endblocktrans %}
 <br />
 
+{%endblock conteudo %}
