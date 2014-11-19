@@ -6,7 +6,7 @@ from usuario.models import Usuario
 from django.utils.translation import ugettext_lazy as _
 
 def index (request):
-    recado = _('Ola, Voce esta no site certo!')
+    recado = _('Ola, Voce esta no melhor software que controla corridas de taxi do pais!')
     return render(request, 'index.html',{'recado':recado})
 
 
