@@ -1,6 +1,7 @@
 {% extends 'base.html' %} 
-<body bgcolor="#CDB5CD">{% load i18n %}
+{% load i18n %}
 {% block conteudo %}
+<body bgcolor="#CDB5CD">
 	<div class="col-sm-6" align="center">
     	      </div>
             <div class="col-sm-6" align="center">
@@ -50,7 +51,7 @@
 <br />
 Tradução vinda do Django: {{ recado}}
 <br />
-Tradução direto no Template: {% trans "O melhor software de Taxi do mercado" %}
+Tradução direto no Template: {% trans "Olá turma do mal!" %}
 <br />
 Tradução direto no Template (Bloco): {% blocktrans %} Esse é o bloco de conteúdo!{% endblocktrans %}
 <br />

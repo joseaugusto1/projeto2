@@ -1,6 +1,7 @@
 {% extends 'base.html' %} 
-<body bgcolor="#CDB5CD"><h1>CADASTRO</h1>
+<h1>CADASTRO</h1>
 {% block conteudo %}
+<body bgcolor="#CDB5CD">
 <form action="/cadastro_validar/" method="POST">
 	{% csrf_token %}
 	{{ form.as_p }}<br />
