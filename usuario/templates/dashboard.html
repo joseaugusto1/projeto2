@@ -1,6 +1,6 @@
 {% extends 'base.html' %} 
 <body bgcolor="#CDB5CD"><h1>DASHBOARD DO USUARIO</h1>
-
+{% block conteudo %}
 <br />
 Conteudo bloqueado do usuario...
 <br />
@@ -9,3 +9,4 @@ Email do usuario logado: {{user.email}}
 <br />
 <a href="/logoff/">Sair</a>
 <body>
+{% endblock conteudo %}
