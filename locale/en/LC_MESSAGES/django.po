@@ -1,0 +1,31 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-19 23:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: usuario/views.py:9
+msgid ""
+"Ola, Voce esta no melhor software que controla corridas de taxi do pais!"
+msgstr "Hello, You're the best software that controls racing taxi's parents!"
+
+#: usuario/templates/index.html:53
+msgid "O melhor software de Taxi do mercado"
+msgstr "The best software for Taxi of Market"
+
+#: usuario/templates/index.html:55
+msgid " Esse é o bloco de conteúdo!"
+msgstr "This is the block of content!"
