@@ -75,6 +75,9 @@ LANGUAGE = (
   ('pt-br', 'Brasil'),
   ('en', 'EUA'),
 )
+LOCALE_PATHS=(
+  os.path.join(BASE_DIR,'locale'),
+)
 
 TIME_ZONE = 'UTC'
 

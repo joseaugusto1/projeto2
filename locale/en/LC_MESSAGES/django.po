@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-19 23:35+0000\n"
+"POT-Creation-Date: 2014-11-20 00:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,10 +22,11 @@ msgid ""
 "Ola, Voce esta no melhor software que controla corridas de taxi do pais!"
 msgstr "Hello, You're the best software that controls racing taxi's parents!"
 
-#: usuario/templates/index.html:53
-msgid "O melhor software de Taxi do mercado"
-msgstr "The best software for Taxi of Market"
+#: usuario/templates/index.html:54
+#, fuzzy
+msgid "O melhor Software de Taxis do Brasil"
+msgstr "The best software for Taxi of Brazil"
 
-#: usuario/templates/index.html:55
+#: usuario/templates/index.html:56
 msgid " Esse é o bloco de conteúdo!"
 msgstr "This is the block of content!"
